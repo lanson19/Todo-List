@@ -1,7 +1,13 @@
 .app {
-  background: #209cee;
+  background: rgb(92, 91, 91);
   height: 100vh;
-  padding: 30px;
+}
+
+.list-title {
+  text-align: center;
+  font-size: 50px;
+  margin: 7px;
+  color: rgb(90, 89, 89);
 }
 
 .todo-list {
@@ -32,9 +38,10 @@
 
 .input {
   width: 98.5%;
-  height: 35px;
+  height: 37px;
   position: absolute;
   bottom: 0;
+  margin-bottom: 2px;
   font-size: x-large;
 }
 
@@ -43,6 +50,9 @@ button {
   text-decoration: none;
   background: grey;
   padding: 10px;
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   border-radius: 5px;
   display: inline;
   border: none;
@@ -50,8 +60,8 @@ button {
 }
 
 button:hover {
+  cursor: pointer;
   background: #434343;
-  letter-spacing: 1px;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);

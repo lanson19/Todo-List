@@ -40,9 +40,9 @@ function App() {
   const [todos, setTodos] = React.useState([
     { text: "Learn about React",
       isCompleted: false, },
-    { text: "Meet friend for lunch",
+    { text: "Rate Misha's tinder finds",
       isCompleted: false, },
-    { text: "Build really cool todo app",
+    { text: "Not suck at life",
       isCompleted: false, }
   ]);
 
@@ -66,6 +66,7 @@ function App() {
   return (
     <div className="app">
       <div className="todo-list">
+        <h1 className="list-title">Tasks</h1>
         {todos.map((todo, index) => (
           <Todo
             key={index}
